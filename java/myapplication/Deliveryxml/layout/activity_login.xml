@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg1"
+    tools:context=".DeliveryLogin">
+
+    <EditText
+        android:id="@+id/protel"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/boxb"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/DRpw"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/protel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/boxb"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/Dloginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Dtext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#2489DA"
+        android:text="Login"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Dtext"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DRpw"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="27dp"
+        android:text="Don't have an account" />
+
+    <Button
+        android:id="@+id/Dsignupbtn"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DRpw"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:layout_toEndOf="@+id/Dtext"
+        android:background="#00FFFFFF"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#0B1CD6"
+        android:textSize="13sp" />
+
+</RelativeLayout>

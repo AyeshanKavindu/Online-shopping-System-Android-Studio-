@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_seller_registration">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="417dp"
+        android:layout_height="767dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seller_reg_bg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="242dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="136dp"
+        android:text="Seller Registration"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SRegname"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/stylish_textfeild"
+        android:hint=" Name"
+        android:inputType="textPersonName"
+        android:text="  Name"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/SRegmobile"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/stylish_textfeild"
+        android:hint="Mobile Number"
+        android:inputType="textPersonName"
+        android:text="  Phone  "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SRegname" />
+
+    <EditText
+        android:id="@+id/SRegemail"
+        android:layout_width="284dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/stylish_textfeild"
+        android:hint="Email"
+        android:text="  Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SRegmobile" />
+
+    <EditText
+        android:id="@+id/SRegpassw"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/stylish_textfeild"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:text="  Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SRegemail" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="417dp"
+        android:layout_height="28dp"
+        android:background="#6C0BA9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/SRegbtn"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/stylish_button"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SRegpassw" />
+</androidx.constraintlayout.widget.ConstraintLayout>

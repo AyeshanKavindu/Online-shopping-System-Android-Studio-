@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkkk"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="283dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="-91dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="539dp"
+        app:srcCompat="@drawable/_0221021_1617456704750327630759937" />
+
+    <Button
+
+        android:id="@+id/btnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/buttons"
+        android:radius="15dp"
+        android:text="Already have an Account? Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnjoin"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/input_design"
+        android:text="Join"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

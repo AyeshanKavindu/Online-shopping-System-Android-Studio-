@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picsart_22_10_21_17_51_43_726"
+    tools:context=".Lodinuser">
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="179dp"
+        android:background="@drawable/loginbutton"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:id="@+id/editcheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="231dp"
+        android:text="Remember me" />
+
+    <EditText
+        android:id="@+id/inputpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:rotationX="25"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/inputnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="274dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="387dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:rotationX="25"
+        android:textColorHint="@color/black" />
+
+</RelativeLayout>

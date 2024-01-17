@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelAddProduct">
+
+    <ImageView
+        android:id="@+id/Productimg"
+        android:layout_width="291dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cameraicon" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:text=" Add Product"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Prodname"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/stylish_textfeild"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Product Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Proddesc"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/stylish_textfeild"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Product Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Prodprice"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/stylish_textfeild"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Product Price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Addprodbtn"
+        android:layout_width="178dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/stylish_button"
+        android:text="Add Product"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

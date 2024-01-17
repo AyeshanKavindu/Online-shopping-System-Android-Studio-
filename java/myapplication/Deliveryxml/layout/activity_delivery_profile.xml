@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/probg"
+    tools:context=".DeliveryProfile">
+
+    <EditText
+        android:id="@+id/proname"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="7dp"
+        android:hint="Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/protype"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="134dp"
+        android:background="@android:color/transparent"
+        android:hint="type"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/proemail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/protype"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="40dp"
+        android:background="@android:color/transparent"
+        android:hint="email"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/protel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proemail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="144dp"
+        android:background="@android:color/transparent"
+        android:hint="Phone number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/propw"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/protel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="143dp"
+        android:background="@android:color/transparent"
+        android:hint="password"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/protype"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="331dp"
+        app:srcCompat="@drawable/icemail" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="335dp"
+        app:srcCompat="@drawable/icphone" />
+
+    <Button
+        android:id="@+id/BtnproShow"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/propw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="152dp"
+        android:background="#F4D193"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/BtnproUpdate"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/protel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="-514dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edit"
+        android:backgroundTint="#0C0C0C"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="346dp"
+        app:srcCompat="@drawable/iclock" />
+
+</RelativeLayout>

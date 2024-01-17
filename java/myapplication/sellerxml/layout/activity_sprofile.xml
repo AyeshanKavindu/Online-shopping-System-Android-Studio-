@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selprofilebg"
+    tools:context=".Sprofile" >
+
+    <TextView
+        android:id="@+id/Sprofname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shamal"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/Sprofpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ww112"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <EditText
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="184dp"
+        android:text=" Seller Profile"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="380dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="29dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="468dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="552dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="292dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_sort_alphabetically" />
+
+    <Button
+        android:id="@+id/sprofshowbtn"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="624dp"
+        android:backgroundTint="#FF9800"
+        android:text="Update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sprofshowbtn2"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="624dp"
+        android:backgroundTint="#FF9800"
+        android:text="Delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Sprofemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tt"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/Sprofphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0703287291"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

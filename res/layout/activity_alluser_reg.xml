@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkkk"
+    tools:context=".AlluserReg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="412dp"
+        android:layout_height="733dp"
+        android:background="@color/bb"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="187dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:text="Customer Registration"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.656" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="187dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:text="seller Registration"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.766" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="187dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:text="deliver Registration"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.873" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="187dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:text="suppllier Registration"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="320dp"
+            android:layout_height="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/_0221021_1617456704750327630759937" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

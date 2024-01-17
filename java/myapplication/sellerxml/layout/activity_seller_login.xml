@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellerLogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="84dp"
+        android:text="Seller Login"
+        android:textColor="#0B630E"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:background="#ff5500" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:background="#ff5500" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/ic_wave__1_" />
+
+    <EditText
+        android:id="@+id/Emailfield"
+        android:layout_width="272dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="71dp"
+        android:background="@drawable/stylish_textfeild"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Email" />
+
+    <EditText
+        android:id="@+id/Pwfield"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Emailfield"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/stylish_textfeild"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Password" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/_wave__under_" />
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/Pwfield"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="154dp"
+        android:background="@drawable/stylish_button"
+        android:text="LOGIN"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="136dp"
+        android:text="Not registered yet?"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SReg"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/stylish_button2"
+        android:text="REGISTER" />
+
+</RelativeLayout>

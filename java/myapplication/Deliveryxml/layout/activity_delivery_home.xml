@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".DeliveryHome">
+
+    <Button
+        android:id="@+id/DProbtn"
+        android:layout_width="133dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="222dp"
+        android:background="@drawable/button_c"
+
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ordersbtn"
+        android:layout_width="133dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/button_c"
+        android:backgroundTint="#DFDCDC"
+        android:text="Orders" />
+</RelativeLayout>
